@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar /> 
       <section id="home"><Home /></section>
       <section id="about"><About /></section>
+      <section id="education"><Education /></section>
       <section id="experience"><Experience /></section>
       <section id="skills"><Skills /></section>
       <section id="projects"><Projects /></section>

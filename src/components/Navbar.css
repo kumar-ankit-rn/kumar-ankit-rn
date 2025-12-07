@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -34,7 +34,7 @@ body {
 .nav-links ul li a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   transition: color 0.3s;
 }
 
@@ -84,9 +84,11 @@ body {
   .nav-links {
     display: none;
     width: 70%;
-    background: black;
+    background: rgb(24,27,33);
+      border: 1px solid rgb(40,44,51);  /* Updated line */
+
     position: absolute;
-    top: 120%;
+    top: 130%;
     right: 0;
     text-align: center;
     padding: 20px 0;
@@ -108,4 +110,9 @@ body {
   .hamburger {
     display: flex;
   }
+}
+.active-link {
+  color: rgb(213,183,117) !important;
+  font-size: 18px;
+  font-weight: bold;
 }
