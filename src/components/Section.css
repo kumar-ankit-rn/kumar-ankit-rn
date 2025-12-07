@@ -1,0 +1,65 @@
+.section {
+  /* padding: 100px 50px; */
+  /* max-width: 900px; */
+  /* margin: auto; */
+  /* width: 100%; */
+  max-width: 100%;
+  margin-right: 16px;
+  margin-left: 16px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(213,183,117);
+}
+
+.section p, .section ul {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+     /* background: rgb(35,38,45); */
+  padding: 30px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.skills-grid span {
+  background:rgb(35,38,45);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.card {
+  background:  rgb(35,38,45);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.contact-row {
+  display: flex;
+  gap: 20px; /* space between items */
+  flex-wrap: wrap; /* wrap on smaller screens */
+  align-items: center;
+  justify-self: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.contact-row p {
+  margin: 0; /* remove default paragraph margin */
+}
