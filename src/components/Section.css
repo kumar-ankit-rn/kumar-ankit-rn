@@ -1,8 +1,4 @@
 .section {
-  /* padding: 100px 50px; */
-  /* max-width: 900px; */
-  /* margin: auto; */
-  /* width: 100%; */
   max-width: 100%;
   margin-right: 16px;
   margin-left: 16px;
@@ -17,10 +13,8 @@
 
 .section p, .section ul {
   font-size: 1.1rem;
-  color: white;
+  color: #cdd8ff;
   line-height: 1.6;
-    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
-     /* background: rgb(35,38,45); */
   padding: 30px;
 }
 
@@ -30,7 +24,7 @@
   gap: 15px;
   justify-content: center;
   margin-top: 20px;
-  color: white;
+  color: #cdd8ff;
 }
 
 .skills-grid span {

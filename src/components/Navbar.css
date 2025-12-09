@@ -32,7 +32,7 @@ body {
 }
 
 .nav-links ul li a {
-  color: white;
+  color: #cdd8ff;
   text-decoration: none;
   font-size: 20px;
   transition: color 0.3s;
@@ -49,7 +49,7 @@ body {
   cursor: pointer;
   gap: 5px;
   position: absolute;
-  right: 100px;
+  right: 50px;
   top: 25px;
   transition: all 0.3s ease;
 }
@@ -57,7 +57,7 @@ body {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background: white;
+  background: #cdd8ff;
   border-radius: 5px;
   transition: all 0.3s ease;
 }

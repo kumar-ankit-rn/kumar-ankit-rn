@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="section">
       <h2>About Me</h2>
-      <p style={{color:"white"}}>
+      <p style={{color:"#cdd8ff"}}>
        Hi, I’m Ankit Kumar, a Team Lead – Mobile Application Development, specializing in React Native for Android & iOS apps.
 With 3+ years focused on React Native, I combine deep technical expertise with strong leadership skills.
 

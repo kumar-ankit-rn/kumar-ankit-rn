@@ -6,7 +6,7 @@
 }
 
 .education-section {
-  max-width: 1100px;
+  max-width: 100%;
   margin: 60px auto;
   padding: 0 20px;
   color: rgb(213,183,117);
@@ -25,11 +25,11 @@
   color: #666;
   font-size: 15px;
   margin-bottom: 50px;
-  color: white;
+  color: #cdd8ff;
 }
 
 .edu-card {
-  background: #fff;
+  background: rgb(35,38,45);
   border-radius: 16px;
   display: flex;
   gap: 25px;
@@ -46,8 +46,8 @@
 }
 
 .edu-image {
-  min-width: 180px;
-  height: 130px;
+  width: 480px;
+  height: 230px;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -60,13 +60,13 @@
 
 .edu-content h3 {
   font-size: 22px;
-  color: #1e40af;
+  color: #cdd8ff;
   margin-bottom: 6px;
 }
 
 .edu-content p {
   font-size: 14px;
-  color: #555;
+  color: #cdd8ff;
   margin-bottom: 8px;
 }
 

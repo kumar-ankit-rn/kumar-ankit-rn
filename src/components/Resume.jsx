@@ -61,7 +61,7 @@ const styles = {
   title: {
     fontSize: "36px",
     fontWeight: "800",
-    color: "#ffffff",
+    color: "#cdd8ff",
     marginBottom: "16px",
     letterSpacing: "0.5px",
   },
@@ -74,7 +74,7 @@ const styles = {
   button: {
     background:
       "linear-gradient(135deg, rgb(213,183,117), rgb(160,130,80))",
-    color: "#111",
+    color: '#cdd8ff',
     border: "none",
     padding: "15px 36px",
     borderRadius: "14px",
