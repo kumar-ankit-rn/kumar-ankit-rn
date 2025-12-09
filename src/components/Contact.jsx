@@ -3,6 +3,13 @@ import "./Section.css";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import x from "../assets/x.png";
+import youtube from "../assets/youtube.png";
+import whatsapp from "../assets/whatsapp.png";
+import phone from "../assets/phone.png";
+import email from "../assets/email.png";
+import instagram from "../assets/instagram.jpg";
+import fb from "../assets/fb.png";
+import dribbble from "../assets/dribbble.png";
 
 function Contact() {
   const data = [
@@ -17,29 +24,53 @@ function Contact() {
       link: "https://github.com/kumar-ankit-rn",
       isImage: true
     },
+         {
+      icon: phone,
+      link:  "tel:+918368245138",
+      isImage: true,
+      label: "Call"
+    },
+     {
+      icon: email,
+      link: "mailto:kumar.ankit.rn@gmail.com",
+      label: "LinkedIn",
+      isImage: true,
+    },
+         {
+      icon: whatsapp,
+      link: "https://wa.me/qr/CZ7DDQUAD3FRM1",
+      isImage: true,
+      label: "Call"
+    },
+    {
+      icon: youtube,
+      link: "https://www.youtube.com/@kumar_ankit_rn",
+      isImage: true
+    },
+
         {
       icon: x,
       link: "https://x.com/kumarankitrn",
       isImage: true
-    },
-     {
-      icon: "💬 WhatsApp Chat",
-      link: "https://wa.me/qr/CZ7DDQUAD3FRM1",
-      isImage: false,
-      label: "Call"
+    }, 
+
+    {
+      icon: instagram,
+      link: "https://www.instagram.com/kumar.ankit.rn/",
+      label: "LinkedIn",
+      isImage: true,
+    },  {
+      icon: fb,
+      link: "https://www.facebook.com/kumar.ankit.rn",
+      label: "LinkedIn",
+      isImage: true,
     },
     {
-      icon: "📞 Call Here +91 8368245138",
-      link: "tel:+918368245138",
-      isImage: false,
-      label: "Call"
-    },
-     {
-      icon: "📧 kumar.ankit.rn@gmail.com",
-      link: "mailto:kumar.ankit.rn@gmail.com",
-      label: "LinkedIn"
-    },
-   
+      icon: dribbble,
+      link: "https://dribbble.com/kumar-ankit-rn",
+      label: "LinkedIn",
+      isImage: true,
+    }
   ];
 
   return (
@@ -66,7 +97,7 @@ function Contact() {
               gap: "5px"
             }}>
               {item.isImage ? (
-                <img src={item.icon} alt={item.label} width="30" height="30" style={{ borderRadius: "5px" }} />
+                <img src={item.icon} alt={item.label} width="50" height="50" style={{ borderRadius: "5px", background:'rgba(24, 27, 33)' }} />
               ) : (
                 <span>{item.icon}</span>
               )}

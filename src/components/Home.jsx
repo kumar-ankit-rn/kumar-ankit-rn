@@ -106,9 +106,9 @@ export default function Home() {
           height: 450px;
                     // height: 550px;
 
-          border-radius: 100%;
+          border-radius: 5%;
           background: white;
-          border: 10px solid #cdd8ff;
+          border: 10px solid white;
           overflow: hidden;
           display: flex;
           justify-content: center;
