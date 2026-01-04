@@ -37,7 +37,8 @@ function Contact() {
     },
          {
       icon: whatsapp,
-      link: "https://wa.me/qr/CZ7DDQUAD3FRM1",
+      link:"https://api.whatsapp.com/send?phone=%2B918368245138&fbclid=IwY2xjawPHrnRicmlkETFvbjV2eDh4VUU2eDZ2VnZGc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHnsb8aSx2WVLLz3O2SCqtqY_HW9b7QcgzGfQa6sLXStJsiL_gmy7AgVmQmD3&brid=5k6ZhHjLR-ZoKMlayUCo6g",
+      // link: "https://wa.me/qr/CZ7DDQUAD3FRM1",
       isImage: true,
       label: "Call"
     },
