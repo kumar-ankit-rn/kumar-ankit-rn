@@ -7,7 +7,7 @@ function About() {
       <h2>About Me</h2>
       <p style={{color:"#cdd8ff"}}>
        Hi, I’m Ankit Kumar, a Team Lead – Mobile Application Development, specializing in React Native for Android & iOS apps.
-With 3+ years focused on React Native, I combine deep technical expertise with strong leadership skills.
+With 4+ years focused on React Native, I combine deep technical expertise with strong leadership skills.
 
 I love building clean, functional, and creative mobile applications that deliver seamless user experiences across platforms. As a team lead, I guide developers, ensure best practices, and drive projects from concept to successful deployment.
 
