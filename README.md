@@ -1,79 +1,177 @@
-# 👋 Hi there, I'm Ankit Kumar
+# 👋 Hi, I'm Ankit Kumar
 
-🚀 Passionate technologist | Lifelong learner | Builder of impactful products  
+🚀 Mobile Application Team Lead | Senior React Native Developer  
+📍 Pune, Maharashtra, India
 
 ---
 
-## 🧠 About Me
+## 👨‍💻 Overview
 
-I am a highly motivated and detail-oriented software professional with a strong passion for building scalable, high-performance applications. I enjoy solving complex problems, learning new technologies, and delivering clean, maintainable code that creates real-world impact.
+Mobile Application Team Lead and Senior React Native Developer with **4+ years of experience** building **scalable, high-performance Android and iOS applications**. Strong expertise in **React Native, JavaScript, TypeScript, Redux, Redux Toolkit, REST APIs, and GraphQL**, with a focus on **clean architecture, performance optimization, and maintainable code**.
 
-- 💡 Strong problem-solving mindset  
-- 🔥 Experience with modern frontend & mobile technologies  
-- 🎯 Focused on performance, scalability, and user experience  
-- 🤝 Team player with leadership and mentoring experience  
+Experienced in leading **end-to-end mobile development**, mentoring developers, conducting code reviews, and collaborating with **UI/UX and backend teams** in Agile/Scrum environments. Passionate about delivering **user-centric mobile solutions**, improving app stability, and continuously learning modern mobile technologies.
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages**
+### 💻 Programming Languages
 - JavaScript (ES6+)
 - TypeScript
+- HTML5, CSS3
+- Python
+- C Programming
 
-**Frameworks & Libraries**
-- React
+### 📱 Frameworks & Libraries
 - React Native
-- Redux / Redux Toolkit
+- React.js
+- Redux, Redux Toolkit
 - Context API
+- Third-party React Native libraries
 
-**Mobile Development**
-- Android & iOS (Cross-platform)
-- Native Modules
-- Performance Optimization
+### 🔗 Backend & APIs
+- Node.js
+- RESTful APIs
+- GraphQL
+- MongoDB
 
-**Tools & Platforms**
-- Git & GitHub
-- REST APIs
-- Async Storage
-- CI/CD Basics
+### ⚙️ Tools & Platforms
+- Git, GitHub, GitLab
+- Postman
+- CI/CD Pipelines
+- Agile / Scrum
+- MVC Architecture
 
----
+### 🎨 Design Tools
+- Figma
+- Adobe XD
 
-## 📌 Featured Projects
-
-### 📱 Mobile Application
-- Cross-platform React Native app with optimized performance
-- Implemented pagination, offline support, and scalable architecture
-
-### ⚙️ Utilities & Helpers
-- JavaScript utility functions (flatten array, debounce, throttle, etc.)
-- Clean and reusable component libraries
-
-> _More exciting projects coming soon..._
+### 🧩 IDEs
+- VS Code
+- Android Studio
+- Xcode
 
 ---
 
-## 📊 GitHub Stats
+## 💼 Professional Experience
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact)
+### 🏢 CloudPeak Technologies Pvt. Ltd  
+**Mobile Application Team Lead** | Nov 2023 – Present | Pune
+
+- Leading end-to-end development of scalable React Native applications
+- Developed and optimized **Quick Hub** mobile app for performance and UI consistency
+- Integrated REST & GraphQL APIs for efficient data handling
+- Implemented secure authentication and authorization
+- Improved state management using Redux Toolkit & Context API
+- Mentored developers, conducted code reviews, and enforced best practices
+- Collaborated closely with UI/UX designers and backend teams
 
 ---
 
-## 🌱 Currently Learning
+### 🏢 Dev Technosys Pvt. Ltd  
+**React Native Developer** | Mar 2023 – Nov 2023 | Jaipur
 
-- Advanced JavaScript & System Design  
-- Performance optimization in React Native  
-- Scalable application architecture  
+- Built and maintained production apps: **CoffeeHub, QLaundry, Grocery App, HomeSherpa**
+- Published Android & iOS builds and handled release cycles
+- Improved CI/CD workflows for automated builds and deployments
+- Optimized app performance, memory usage, and reduced crashes
+- Refactored legacy code for better stability and scalability
 
 ---
 
-## 🤝 Let’s Connect
+### 🏢 Flitwebs Pvt. Ltd  
+**React Native Developer** | Aug 2022 – Mar 2023 | Jaipur
 
-- 💼 LinkedIn: _Coming Soon_
-- 🐦 Twitter/X: _Coming Soon_
-- 🌐 Portfolio: _Coming Soon_
+- Developed **Flitpay** mobile application
+- Built reusable, modular component architecture
+- Focused on responsive UI/UX and performance optimization
+- Reduced build size and improved runtime performance
+
+---
+
+## 📱 Featured Projects
+
+### 🚀 Quick Hub – Automate Marketing
+**Tech:** React Native, Redux Toolkit, REST APIs, GraphQL  
+- Led scalable cross-platform development
+- Implemented secure authentication and optimized state management
+- Built CI/CD pipelines using GitHub & GitLab
+- Reduced crash rate and improved rendering performance
+
+---
+
+### 🛒 Grocery Vendor App
+**Tech:** React Native, REST APIs  
+- Developed responsive UI and smooth order workflows
+- Published Android & iOS builds
+- Improved app stability and load times
+
+---
+
+### 🏠 HonestSherpa
+**Tech:** React Native, REST APIs  
+- Rental platform for property listing and booking
+- Optimized performance and user experience
+- Production-ready Android & iOS releases
+
+---
+
+### ☕ CoffeeHub
+**Tech:** React Native, REST APIs  
+- Restaurant app with menu browsing and real-time order tracking
+- Optimized app performance and loading speed
+
+---
+
+### 💰 Flitpay (Crypto Trading App)
+**Tech:** React Native, GraphQL, Apollo Client  
+- Real-time trading and portfolio management
+- Secure authentication and encrypted data handling
+- Optimized caching, network performance, and stability
+
+---
+
+## 🎓 Education
+
+**B.Tech – Computer Science & Engineering**  
+Aravali College of Engineering and Management (ACEM)  
+**CGPA:** 7.9 | 2018 – 2022
+
+---
+
+## 📜 Certifications
+
+- Full Stack Web Developer – Dreamer Infotech (2022)
+- The Joy of Computing using Python – NPTEL (2021)
+- Introduction to Internet of Things – NPTEL (2020)
+
+---
+
+## 💡 Strengths
+
+- Strong problem-solving and debugging skills
+- Performance tuning & memory optimization
+- Scalable mobile architecture design
+- Team leadership, mentoring, and collaboration
+
+---
+
+## 🌱 Interests
+
+- Mobile performance engineering
+- UI/UX optimization
+- Scalable cross-platform development
+- Agile team leadership
+- Continuous learning
+
+---
+
+## 🌐 Connect With Me
+
+- 📧 Email: kumar.ankit.rn@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/kumarankitrn/  
+- 🧑‍💻 GitHub: https://github.com/kumar-ankit-rn  
+- 🌐 Portfolio: https://kumar-ankit-rn.vercel.app/
 
 ---
 
