@@ -65,7 +65,7 @@ I lead projects end-to-end — from **concept and architecture** to **App Store 
     <img src="https://img.shields.io/badge/LinkedIn-Ankit%20Kumar-blue?style=for-the-badge&logo=linkedin">
   </a>
   <a href="mailto:kumar.ankit.rn@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ankitkumar.devpro@gmail.com-red?style=for-the-badge&logo=gmail">
+    <img src="https://img.shields.io/badge/Email-kumar.ankit.rn@gmail.com-red?style=for-the-badge&logo=gmail">
   </a>
 </p>
 
