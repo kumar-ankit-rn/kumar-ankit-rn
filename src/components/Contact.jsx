@@ -9,7 +9,6 @@ import phone from "../assets/phone.png";
 import email from "../assets/email.png";
 import instagram from "../assets/instagram.jpg";
 import fb from "../assets/fb.png";
-// import dribbble from "../assets/dribbble.png";
 
 function Contact() {
   const data = [
