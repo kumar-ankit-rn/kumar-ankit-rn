@@ -6,14 +6,13 @@ function About() {
     <div className="section">
       <h2>About Me</h2>
       <p style={{color:"#cdd8ff"}}>
-       Hi, I’m Ankit Kumar, a Team Lead – Mobile Application Development, specializing in React Native for Android & iOS apps.
-With 4+ years focused on React Native, I combine deep technical expertise with strong leadership skills.
+Hi, I’m Ankit Kumar, a Team Lead – Mobile Application Development with a strong focus on building high-quality React Native applications for Android and iOS. With 4+ years of hands-on experience in React Native, I specialize in creating scalable, performance-driven, and user-centric mobile apps.
 
-I love building clean, functional, and creative mobile applications that deliver seamless user experiences across platforms. As a team lead, I guide developers, ensure best practices, and drive projects from concept to successful deployment.
+I combine deep technical expertise with effective leadership, guiding development teams through best practices, clean architecture, and efficient workflows. From translating business requirements into technical solutions to leading projects from concept to App Store and Play Store deployment, I take ownership of the entire development lifecycle.
 
-My core skills include React Native, JavaScript, TypeScript, state management (Redux, Context API), API integration, performance optimization, and app store deployment. I’m passionate about solving real-world problems through mobile technology and mentoring teams to deliver their best work.
+My core strengths include React Native, JavaScript, TypeScript, state management using Redux and Context API, seamless API integration, performance optimization, and delivering production-ready applications. I am passionate about writing clean, maintainable code and building products that solve real-world problems.
 
-When I’m not coding, I stay curious about the latest tools, trends, and practices in the mobile ecosystem, always eager to learn and grow.
+As a team lead, I enjoy mentoring developers, conducting code reviews, and fostering a collaborative environment where teams can deliver their best work. Beyond coding, I stay actively engaged with the latest trends, tools, and advancements in the mobile ecosystem—always learning, evolving, and pushing boundaries.
       </p>
     </div>
   );
