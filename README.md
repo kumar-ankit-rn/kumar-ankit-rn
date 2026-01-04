@@ -1,16 +1,80 @@
-# React + Vite
+# 👋 Hi there, I'm Ankit Kumar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Passionate technologist | Lifelong learner | Builder of impactful products  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 About Me
 
-## React Compiler
+I am a highly motivated and detail-oriented software professional with a strong passion for building scalable, high-performance applications. I enjoy solving complex problems, learning new technologies, and delivering clean, maintainable code that creates real-world impact.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 💡 Strong problem-solving mindset  
+- 🔥 Experience with modern frontend & mobile technologies  
+- 🎯 Focused on performance, scalability, and user experience  
+- 🤝 Team player with leadership and mentoring experience  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Languages**
+- JavaScript (ES6+)
+- TypeScript
+
+**Frameworks & Libraries**
+- React
+- React Native
+- Redux / Redux Toolkit
+- Context API
+
+**Mobile Development**
+- Android & iOS (Cross-platform)
+- Native Modules
+- Performance Optimization
+
+**Tools & Platforms**
+- Git & GitHub
+- REST APIs
+- Async Storage
+- CI/CD Basics
+
+---
+
+## 📌 Featured Projects
+
+### 📱 Mobile Application
+- Cross-platform React Native app with optimized performance
+- Implemented pagination, offline support, and scalable architecture
+
+### ⚙️ Utilities & Helpers
+- JavaScript utility functions (flatten array, debounce, throttle, etc.)
+- Clean and reusable component libraries
+
+> _More exciting projects coming soon..._
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact)
+
+---
+
+## 🌱 Currently Learning
+
+- Advanced JavaScript & System Design  
+- Performance optimization in React Native  
+- Scalable application architecture  
+
+---
+
+## 🤝 Let’s Connect
+
+- 💼 LinkedIn: _Coming Soon_
+- 🐦 Twitter/X: _Coming Soon_
+- 🌐 Portfolio: _Coming Soon_
+
+---
+
+⭐️ *If you like my work, consider starring my repositories!*
