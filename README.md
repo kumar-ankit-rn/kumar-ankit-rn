@@ -1,178 +1,135 @@
-# 👋 Hi, I'm Ankit Kumar
+<h1 align="center">
+  Hi 👋, I'm Ankit Kumar
+</h1>
 
-🚀 Mobile Application Team Lead | Senior React Native Developer  
-📍 Pune, Maharashtra, India
+<h3 align="center">
+  🚀 Mobile Application Team Lead | Senior React Native Developer
+</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=React+Native+Team+Lead;4%2B+Years+Mobile+App+Experience;Android+%26+iOS+Expert;Performance+Focused+Engineer;Always+Learning+🚀&center=true&width=600&height=45">
+</p>
 
 ---
 
-## 👨‍💻 Overview
+## 👨‍💻 About Me
 
-Mobile Application Team Lead and Senior React Native Developer with **4+ years of experience** building **scalable, high-performance Android and iOS applications**. Strong expertise in **React Native, JavaScript, TypeScript, Redux, Redux Toolkit, REST APIs, and GraphQL**, with a focus on **clean architecture, performance optimization, and maintainable code**.
+💡 Mobile Application Team Lead and Senior React Native Developer with **4+ years of experience** building  
+**scalable, high-performance Android & iOS applications**.
 
-Experienced in leading **end-to-end mobile development**, mentoring developers, conducting code reviews, and collaborating with **UI/UX and backend teams** in Agile/Scrum environments. Passionate about delivering **user-centric mobile solutions**, improving app stability, and continuously learning modern mobile technologies.
+⚙️ Expert in **React Native, JavaScript, TypeScript, Redux, Redux Toolkit, REST APIs & GraphQL**  
+📈 Focused on **performance optimization, clean architecture, and CI/CD automation**  
+🤝 Experienced in **mentoring teams, code reviews, and Agile development**
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 💻 Programming Languages
-- JavaScript (ES6+)
-- TypeScript
-- HTML5, CSS3
-- Python
-- C Programming
-
-### 📱 Frameworks & Libraries
-- React Native
-- React.js
-- Redux, Redux Toolkit
-- Context API
-- Third-party React Native libraries
-
-### 🔗 Backend & APIs
-- Node.js
-- RESTful APIs
-- GraphQL
-- MongoDB
-
-### ⚙️ Tools & Platforms
-- Git, GitHub, GitLab
-- Postman
-- CI/CD Pipelines
-- Agile / Scrum
-- MVC Architecture
-
-### 🎨 Design Tools
-- Figma
-- Adobe XD
-
-### 🧩 IDEs
-- VS Code
-- Android Studio
-- Xcode
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,js,ts,nodejs,mongodb,graphql,git,github,androidstudio,figma&perline=5" />
+</p>
 
 ---
 
-## 💼 Professional Experience
+## 📱 Professional Experience
 
-### 🏢 CloudPeak Technologies Pvt. Ltd  
-**Mobile Application Team Lead** | Nov 2023 – Present | Pune
-
-- Leading end-to-end development of scalable React Native applications
-- Developed and optimized **Quick Hub** mobile app for performance and UI consistency
-- Integrated REST & GraphQL APIs for efficient data handling
-- Implemented secure authentication and authorization
-- Improved state management using Redux Toolkit & Context API
-- Mentored developers, conducted code reviews, and enforced best practices
-- Collaborated closely with UI/UX designers and backend teams
+### 🏢 CloudPeak Technologies Pvt. Ltd (Nov 2023 – Present)
+**Role:** Mobile Application Team Lead  
+- Leading end-to-end React Native development  
+- Built & optimized **Quick Hub** marketing automation app  
+- Integrated REST & GraphQL APIs  
+- Improved performance, stability & UI consistency  
+- Mentored developers and enforced best practices  
 
 ---
 
-### 🏢 Dev Technosys Pvt. Ltd  
-**React Native Developer** | Mar 2023 – Nov 2023 | Jaipur
-
-- Built and maintained production apps: **CoffeeHub, QLaundry, Grocery App, HomeSherpa**
-- Published Android & iOS builds and handled release cycles
-- Improved CI/CD workflows for automated builds and deployments
-- Optimized app performance, memory usage, and reduced crashes
-- Refactored legacy code for better stability and scalability
+### 🏢 Dev Technosys Pvt. Ltd (Mar 2023 – Nov 2023)
+**Role:** React Native Developer  
+- Apps: **CoffeeHub, QLaundry, Grocery App, HomeSherpa**  
+- Published Android & iOS production builds  
+- Optimized CI/CD pipelines  
+- Reduced crashes & improved memory usage  
 
 ---
 
-### 🏢 Flitwebs Pvt. Ltd  
-**React Native Developer** | Aug 2022 – Mar 2023 | Jaipur
-
-- Developed **Flitpay** mobile application
-- Built reusable, modular component architecture
-- Focused on responsive UI/UX and performance optimization
-- Reduced build size and improved runtime performance
+### 🏢 Flitwebs Pvt. Ltd (Aug 2022 – Mar 2023)
+**Role:** React Native Developer  
+- Built **Flitpay Crypto Trading App**  
+- Modular, reusable component architecture  
+- Performance & build-size optimization  
 
 ---
 
-## 📱 Featured Projects
+## 🚀 Featured Projects
 
-### 🚀 Quick Hub – Automate Marketing
-**Tech:** React Native, Redux Toolkit, REST APIs, GraphQL  
-- Led scalable cross-platform development
-- Implemented secure authentication and optimized state management
-- Built CI/CD pipelines using GitHub & GitLab
-- Reduced crash rate and improved rendering performance
+✨ **Quick Hub – Marketing Automation App**  
+- React Native + Redux Toolkit + GraphQL  
+- Secure auth, CI/CD pipelines, performance tuning  
 
----
+🛒 **Grocery Vendor App**  
+- Order management & product workflows  
 
-### 🛒 Grocery Vendor App
-**Tech:** React Native, REST APIs  
-- Developed responsive UI and smooth order workflows
-- Published Android & iOS builds
-- Improved app stability and load times
+🏠 **HonestSherpa**  
+- Rental booking & property management  
 
----
+☕ **CoffeeHub**  
+- Restaurant app with real-time order tracking  
 
-### 🏠 HonestSherpa
-**Tech:** React Native, REST APIs  
-- Rental platform for property listing and booking
-- Optimized performance and user experience
-- Production-ready Android & iOS releases
+💰 **Flitpay (Crypto App)**  
+- GraphQL + Apollo Client  
+- Real-time trading & secure transactions  
 
 ---
 
-### ☕ CoffeeHub
-**Tech:** React Native, REST APIs  
-- Restaurant app with menu browsing and real-time order tracking
-- Optimized app performance and loading speed
+## 📊 GitHub Stats
 
----
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kumar-ankit-rn&show_icons=true&theme=tokyonight" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kumar-ankit-rn&theme=tokyonight" height="165" />
+</p>
 
-### 💰 Flitpay (Crypto Trading App)
-**Tech:** React Native, GraphQL, Apollo Client  
-- Real-time trading and portfolio management
-- Secure authentication and encrypted data handling
-- Optimized caching, network performance, and stability
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumar-ankit-rn&layout=compact&theme=tokyonight" />
+</p>
 
 ---
 
 ## 🎓 Education
 
-**B.Tech – Computer Science & Engineering**  
-Aravali College of Engineering and Management (ACEM)  
-**CGPA:** 7.9 | 2018 – 2022
+🎓 **B.Tech – Computer Science & Engineering**  
+Aravali College of Engineering & Management  
+**CGPA:** 7.9
 
 ---
 
 ## 📜 Certifications
 
-- Full Stack Web Developer – Dreamer Infotech (2022)
-- The Joy of Computing using Python – NPTEL (2021)
-- Introduction to Internet of Things – NPTEL (2020)
-
----
-
-## 💡 Strengths
-
-- Strong problem-solving and debugging skills
-- Performance tuning & memory optimization
-- Scalable mobile architecture design
-- Team leadership, mentoring, and collaboration
+- ✅ Full Stack Web Developer – Dreamer Infotech  
+- ✅ Joy of Computing using Python – NPTEL  
+- ✅ Introduction to IoT – NPTEL  
 
 ---
 
 ## 🌱 Interests
 
-- Mobile performance engineering
-- UI/UX optimization
-- Scalable cross-platform development
-- Agile team leadership
-- Continuous learning
+🚀 Mobile performance engineering  
+🎨 UI/UX optimization  
+📱 Scalable cross-platform apps  
+🤝 Team leadership & mentoring  
 
 ---
 
 ## 🌐 Connect With Me
 
-- 📧 Email: kumar.ankit.rn@gmail.com  
-- 💼 LinkedIn: https://www.linkedin.com/in/kumarankitrn/  
-- 🧑‍💻 GitHub: https://github.com/kumar-ankit-rn  
-- 🌐 Portfolio: https://kumar-ankit-rn.vercel.app/
+<p align="center">
+  <a href="mailto:kumar.ankit.rn@gmail.com"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge"></a>
+  <a href="https://www.linkedin.com/in/kumarankitrn/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge"></a>
+  <a href="https://github.com/kumar-ankit-rn"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge"></a>
+  <a href="https://kumar-ankit-rn.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-green?style=for-the-badge"></a>
+</p>
 
 ---
 
-⭐️ *If you like my work, consider starring my repositories!*
+<p align="center">
+  ⭐ If you like my work, consider starring my repositories!
+</p>
