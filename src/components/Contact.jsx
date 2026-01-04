@@ -106,7 +106,10 @@ function Contact() {
         ))}
       </div>
 
-      <p style={{ color: "#cdd8ff", paddingBottom: 50 }}>© 2025 Ankit Kumar. All rights reserved.</p>
+      <p style={{ color: "#cdd8ff", paddingBottom: 10 }}>© 2026 Ankit Kumar. All rights reserved.</p>
+            <p style={{ color: "#cdd8ff", paddingBottom: 50 }}> Made with ❤️ by Ankit Kumar</p>
+
+     
     </div>
   );
 }
