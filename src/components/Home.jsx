@@ -103,7 +103,7 @@ export default function Home() {
         .avatar {
           // width: 320px;
                     width: 80%;
-          height: 450px;
+          height: 550px;
                     // height: 550px;
 
           border-radius: 5%;

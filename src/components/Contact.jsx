@@ -9,7 +9,7 @@ import phone from "../assets/phone.png";
 import email from "../assets/email.png";
 import instagram from "../assets/instagram.jpg";
 import fb from "../assets/fb.png";
-import dribbble from "../assets/dribbble.png";
+// import dribbble from "../assets/dribbble.png";
 
 function Contact() {
   const data = [
@@ -61,16 +61,16 @@ function Contact() {
       isImage: true,
     },  {
       icon: fb,
-      link: "https://www.facebook.com/kumar.ankit.rn",
+      link: "https://www.facebook.com/rn.kumar.ankit",
       label: "LinkedIn",
       isImage: true,
     },
-    {
-      icon: dribbble,
-      link: "https://dribbble.com/kumar-ankit-rn",
-      label: "LinkedIn",
-      isImage: true,
-    }
+    // {
+    //   icon: dribbble,
+    //   link: "https://dribbble.com/kumar-ankit-rn",
+    //   label: "LinkedIn",
+    //   isImage: true,
+    // }
   ];
 
   return (
