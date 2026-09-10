@@ -1,15 +1,15 @@
 .cursor {
   display: inline-block;
-  width: 15px;
-  height: 1px;
-  background-color: currentColor;
-  color: gray;
-  margin-left: 5px;
-  animation: blink 1s steps(2, start) infinite;
+  width: 3px;
+  height: 1.15em;
+  background-color: rgb(213, 183, 117);
+  margin-left: 6px;
+  vertical-align: middle;
+  border-radius: 2px;
+  animation: cursorBlink 1s infinite;
 }
 
-@keyframes blink {
-  0% { opacity: 1; }
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
   50% { opacity: 0; }
-  100% { opacity: 1; }
 }

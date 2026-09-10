@@ -8,19 +8,31 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
+import Blog from "./components/Blog";
+import MetricsStrip from "./components/MetricsStrip";
+import Certifications from "./components/Certifications";
+import Testimonials from "./components/Testimonials";
+import CommandPalette from "./components/CommandPalette";
+import LiveChatWidget from "./components/LiveChatWidget";
 
 function App() {
   return (
-    <div style={{ margin: 0, padding: 0,backgroundColor: "rgba(24,27,33)"  }}>
+    <div className="app-container">
       <Navbar /> 
       <section id="home"><Home /></section>
+      <section id="metrics"><MetricsStrip /></section>
       <section id="about"><About /></section>
       <section id="education"><Education /></section>
       <section id="experience"><Experience /></section>
       <section id="skills"><Skills /></section>
+      {/* <section id="certifications"><Certifications /></section> */}
       <section id="projects"><Projects /></section>
+      <section id="blog"><Blog /></section>
+      {/* <section id="testimonials"><Testimonials /></section> */}
       <section id="resume"><Resume /></section>
       <section id="contact"><Contact /></section>
+      <CommandPalette />
+      <LiveChatWidget />
     </div>
   );
 }

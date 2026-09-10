@@ -1,0 +1,384 @@
+/* ==========================================================================
+   Global-Level Professional About Section
+   ========================================================================== */
+
+.about-section {
+  padding: 90px 8% 100px;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+/* Section Header */
+.about-header {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(213, 183, 117, 0.1);
+  border: 1px solid rgba(213, 183, 117, 0.28);
+  padding: 6px 16px;
+  border-radius: 20px;
+  color: rgb(213, 183, 117);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.about-title {
+  font-family: 'Space Grotesk', 'Inter', -apple-system, sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.8px;
+}
+
+.about-title-highlight {
+  background: linear-gradient(135deg, rgb(213, 183, 117), #f5d78e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-subtitle {
+  font-size: 17px;
+  line-height: 1.65;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Two-Column Grid Layout
+   ========================================================================== */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 40px;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left: Narrative Card */
+.about-story-card {
+  background: rgba(18, 22, 31, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 38px 36px;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  transition: border-color 0.3s ease;
+}
+
+.about-story-card:hover {
+  border-color: rgba(213, 183, 117, 0.3);
+}
+
+.story-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.story-avatar-mini {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(213, 183, 117, 0.25), rgba(213, 183, 117, 0.05));
+  border: 1px solid rgba(213, 183, 117, 0.45);
+  color: rgb(213, 183, 117);
+  font-weight: 800;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+}
+
+.story-header-text h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.story-header-text p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: rgb(213, 183, 117);
+  font-weight: 500;
+}
+
+.about-paragraph {
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.about-paragraph strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Quote Card inside Story */
+.about-quote-box {
+  background: rgba(213, 183, 117, 0.06);
+  border-left: 3px solid rgb(213, 183, 117);
+  border-radius: 0 14px 14px 0;
+  padding: 18px 22px;
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: #e2e8f0;
+}
+
+/* Left CTA Action Row */
+.about-story-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 8px;
+}
+
+.about-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: linear-gradient(135deg, rgb(213, 183, 117), #b89345);
+  color: #12141a;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 11px 22px;
+  border-radius: 11px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(213, 183, 117, 0.3);
+  transition: all 0.25s ease;
+}
+
+.about-cta-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+  box-shadow: 0 6px 20px rgba(213, 183, 117, 0.45);
+}
+
+.about-contact-link {
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.about-contact-link:hover {
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Right: Pillars of Value & Leadership Cards
+   ========================================================================== */
+
+.about-pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.pillar-card {
+  background: rgba(18, 22, 31, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 22px 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px) translateX(4px);
+  border-color: rgba(213, 183, 117, 0.35);
+  background: rgba(22, 27, 38, 0.75);
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.7),
+              0 0 25px rgba(213, 183, 117, 0.1);
+}
+
+.pillar-icon-box {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.icon-gold {
+  background: rgba(213, 183, 117, 0.14);
+  color: rgb(213, 183, 117);
+  border: 1px solid rgba(213, 183, 117, 0.3);
+}
+
+.icon-cyan {
+  background: rgba(56, 189, 248, 0.12);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.28);
+}
+
+.icon-violet {
+  background: rgba(168, 85, 247, 0.12);
+  color: #c084fc;
+  border: 1px solid rgba(168, 85, 247, 0.28);
+}
+
+.icon-emerald {
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.28);
+}
+
+.pillar-card:hover .pillar-icon-box {
+  transform: scale(1.08) rotate(3deg);
+}
+
+.pillar-content h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0 0 6px;
+  font-size: 17.5px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+}
+
+.pillar-content p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #94a3b8;
+}
+
+/* ==========================================================================
+   Core Highlights / Principles Bottom Bar
+   ========================================================================== */
+
+.about-principles-bar {
+  max-width: 1200px;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.principle-item {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 14px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
+}
+
+.principle-item:hover {
+  background: rgba(213, 183, 117, 0.06);
+  border-color: rgba(213, 183, 117, 0.3);
+  transform: translateY(-2px);
+}
+
+.principle-dot {
+  width: 8px;
+  height: 8px;
+  min-width: 8px;
+  border-radius: 50%;
+  background: rgb(213, 183, 117);
+  box-shadow: 0 0 8px rgba(213, 183, 117, 0.6);
+}
+
+.principle-text {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #cbd5e1;
+  letter-spacing: -0.2px;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+
+@media (max-width: 990px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-principles-bar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 70px 20px 80px;
+  }
+
+  .about-title {
+    font-size: 30px;
+  }
+
+  .about-story-card {
+    padding: 26px 20px;
+  }
+
+  .about-principles-bar {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .pillar-card {
+    padding: 18px 18px;
+  }
+
+  .pillar-icon-box {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+  }
+
+  .about-story-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-cta-btn {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}

@@ -1,73 +1,40 @@
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: white;
-  padding: 15px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  z-index: 1000;
-}
-.navbar ul {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.navbar a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #333;
-}
-.navbar a:hover {
-  color: #007bff;
-}
+@import "./theme.css";
 
-/* Home Section */
-.home {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 120px 50px;
-  min-height: 100vh;
-}
-.home-left {
-  max-width: 50%;
-}
-.home-left h1 {
-  font-size: 2.5rem;
-}
-.highlight {
-  color: #007bff;
-}
-.btn {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background: #007bff;
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
-}
-.home-right .profile-img {
-  width: 250px;
-  border-radius: 50%;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-}
+/* Global Base & Scroll */
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;  /* Prevent horizontal scroll */
+  overflow-x: hidden;
   width: 100%;
-   background-color: rgba(24,27,33);
+  min-height: 100vh;
+  color: #cdd8ff;
+  background-color: #0b0e14;
+  background-image:
+    radial-gradient(ellipse 900px 600px at 15% 0%, rgba(213, 183, 117, 0.14), transparent 60%),
+    radial-gradient(ellipse 800px 500px at 85% 15%, rgba(56, 189, 248, 0.08), transparent 60%),
+    radial-gradient(circle 800px at 10% 55%, rgba(99, 102, 241, 0.07), transparent 65%),
+    radial-gradient(ellipse 900px 700px at 80% 90%, rgba(213, 183, 117, 0.08), transparent 70%),
+    linear-gradient(175deg, #090b10 0%, #0e121b 25%, #141926 50%, #0f131f 75%, #080a0e 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App {
+html.menu-open,
+body.menu-open {
+  overflow: hidden !important;
+  height: 100% !important;
+  touch-action: none;
+}
+
+.App,
+.app-container {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: transparent !important;
 }
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 90px;

@@ -1,220 +1,379 @@
-.exp-section {
-  background: rgba(24, 27, 33);
-  min-height: 100vh;
-  padding: 50px 20px;
-  text-align: center;
-}
+/* ==========================================================================
+   Global-Level Professional Experience Section
+   ========================================================================== */
 
-.exp-heading {
-  font-size: 34px;
-  font-weight: bold;
-  color: rgb(213,183,117);
-  margin-bottom: 40px;
-}
-
-/* Wrapper */
-.timeline-wrapper {
-  max-width: 1100px;
-  margin: auto;
+.experience-section {
+  padding: 90px 8% 100px;
   position: relative;
-  padding: 20px 0;
+  background: transparent;
+  box-sizing: border-box;
 }
 
-/* Center line */
-.center-line {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 5px;
-  background: white;
-  transform: translateX(-50%);
-}
-
-/* Grid */
-.timeline-grid {
-  display: grid;
-  grid-template-columns: 1fr 80px 1fr;
-  row-gap: 45px;
+/* Section Header */
+.exp-header {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 12px;
+}
+
+.exp-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(213, 183, 117, 0.1);
+  border: 1px solid rgba(213, 183, 117, 0.28);
+  padding: 6px 16px;
+  border-radius: 20px;
+  color: rgb(213, 183, 117);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.exp-title {
+  font-family: 'Space Grotesk', 'Inter', -apple-system, sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.8px;
+}
+
+.exp-title-highlight {
+  background: linear-gradient(135deg, rgb(213, 183, 117), #f5d78e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.exp-subtitle {
+  font-size: 17px;
+  line-height: 1.65;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Timeline Container
+   ========================================================================== */
+
+.exp-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+/* Continuous Vertical Timeline Track */
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  bottom: 25px;
+  left: 27px;
+  width: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    180deg,
+    rgb(213, 183, 117) 0%,
+    rgba(213, 183, 117, 0.4) 40%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  z-index: 0;
+}
+
+/* Timeline Item Wrapper */
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  z-index: 1;
+}
+
+/* Timeline Node Icon: 100% Solid Opaque (Line never bleeds through) */
+.timeline-node {
   position: relative;
   z-index: 2;
-}
-
-.timeline-row {
-  display: contents;
-}
-
-/* Dot */
-.dot-wrap {
-  grid-column: 2;
+  width: 54px;
+  height: 54px;
+  min-width: 54px;
+  border-radius: 16px;
+  background: #0d111a;
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-top: 4px;
 }
 
-.dot {
-  width: 42px;
-  height: 42px;
-  background: white;
-  border-radius: 50%;
-  border: 4px solid rgb(35,38,45);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-}
-
-/* Cards */
-.card {
-  background: rgb(35,38,45);
-  color: #cdd8ff;
-  border-radius: 14px;
-  padding: 18px 24px;
-  /* width: 420px; */
-    width: 100%;
+.timeline-node svg {
   position: relative;
-  text-align: left;
+  z-index: 3;
 }
 
-/* Left card */
-.card-left {
-  grid-column: 1;
-  justify-self: start;
-  margin-right: 50px;
+.timeline-node.current {
+  background: #131926;
+  border-color: rgb(213, 183, 117);
+  color: rgb(213, 183, 117);
+  box-shadow: 0 0 24px rgba(213, 183, 117, 0.35);
 }
 
-/* Right card */
-.card-right {
-  grid-column: 3;
-  justify-self: end;
-  margin-left: 50px;
+.timeline-item:hover .timeline-node {
+  transform: scale(1.08);
+  border-color: rgba(213, 183, 117, 0.8);
+  color: rgb(213, 183, 117);
 }
 
-/* Speech bubble arrows */
-.card-left::after {
-  content: "";
-  position: absolute;
-  right: -12px;
-  top: 26px;
-  border-width: 10px 0 10px 12px;
-  border-style: solid;
-  border-color: transparent transparent transparent rgb(35,38,45);
+/* Glassmorphic Experience Card */
+.exp-card {
+  flex: 1;
+  background: rgba(18, 22, 31, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
+  padding: 28px 32px;
+  box-shadow: 0 15px 40px -10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.card-right::after {
-  content: "";
-  position: absolute;
-  left: -12px;
-  top: 26px;
-  border-width: 10px 12px 10px 0;
-  border-style: solid;
-  border-color: transparent rgb(35,38,45) transparent transparent;
+.exp-card:hover {
+  transform: translateX(6px);
+  border-color: rgba(213, 183, 117, 0.35);
+  background: rgba(22, 27, 38, 0.75);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.7),
+              0 0 25px rgba(213, 183, 117, 0.1);
 }
 
-/* Text */
-.card h3 {
-  font-size: 18px;
-  margin: 0 0 6px;
-}
-.card p {
-  margin: 0 0 4px;
-  font-size: 14px;
-  opacity: 0.85;
-}
-.card span {
-  font-size: 12px;
-  opacity: 0.7;
+/* Card Header: Role + Company + Badges */
+.exp-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-/* Card small icon */
-.inner-icon {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: white;
-  color: #1f2f55;
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  font-size: 14px;
+.exp-role-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.3px;
+  line-height: 1.25;
+}
+
+.exp-company-row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 15px;
+  color: rgb(213, 183, 117);
+  font-weight: 600;
 }
 
-/* Button */
-.view-btn {
-  margin-top: 50px;
-  padding: 12px 30px;
-  border: none;
-  border-radius: 10px;
-  background: #1f2f55;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
+.exp-company-icon {
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .timeline-grid {
-    grid-template-columns: 60px 1fr;
-  }
-
-  .center-line {
-    left: 30px;
-  }
-
-
-
-  .card-left{
-    grid-column: 2;
-    width: 100%;
-    margin: 0;
-    background-color: rgb(35,38,45) ;
+/* Date & Status Pills */
+.exp-badges-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
-  
-  .card-right {
-    grid-column: 2;
-    width: 100%;
-    margin: 0;
-  }
 
-  .card-left::after{
-      content: "";
-  position: absolute;
-  right: 100%;
-  top: 26px;
-  border-width: 10px 12px 10px 0;
-  border-style: solid;
-  border-color: transparent rgb(35,38,45)  transparent transparent;
-  }
-  .card-right::after {
-  content: "";
-  position: absolute;
-  left: -12px;
-  top: 26px;
-  border-width: 10px 12px 10px 0;
-  border-style: solid;
-  border-color: transparent rgb(35,38,45) transparent transparent;
-  }
-  .dot {
-  width: 0px;
-  height: 0px;
-  background: white;
+.exp-time-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px 12px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #cdd8ff;
+}
+
+.exp-status-current {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  padding: 5px 12px;
+  border-radius: 9px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #34d399;
+}
+
+.current-pulse-dot {
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
-  border: 0px solid rgb(35,38,45);
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  font-size: 0px;
-  /* background-color:/ red; */
+  background: #10b981;
+  box-shadow: 0 0 8px #10b981;
+  animation: pulseGreen 2s infinite;
 }
-  .dot-wrap {
-      grid-column: 1;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-    /* grid-column: 1; */
+
+@keyframes pulseGreen {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(0.85); opacity: 0.6; }
+}
+
+/* Responsibilities / Impact Bullets */
+.exp-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.exp-bullet-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #94a3b8;
+}
+
+.exp-bullet-item strong {
+  color: #f1f5f9;
+  font-weight: 600;
+}
+
+.exp-bullet-arrow {
+  color: rgb(213, 183, 117);
+  font-size: 16px;
+  line-height: 1.4;
+  min-width: 14px;
+}
+
+/* Skills / Technologies Pills */
+.exp-tech-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.exp-tech-tag {
+  font-size: 12px;
+  font-weight: 500;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.exp-card:hover .exp-tech-tag {
+  border-color: rgba(213, 183, 117, 0.25);
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Responsive Adaptations
+   ========================================================================== */
+
+@media (max-width: 860px) {
+  .experience-section {
+    padding: 70px 20px 80px;
+  }
+
+  .exp-title {
+    font-size: 36px;
+  }
+
+  .exp-timeline::before {
+    left: 21px;
+    transform: translateX(-50%);
+  }
+
+  .timeline-item {
+    gap: 16px;
+  }
+
+  .timeline-node {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    border-radius: 12px;
+  }
+
+  .exp-card {
+    padding: 22px 20px;
+    min-width: 0;
+  }
+
+  .exp-role-title {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 580px) {
+  .exp-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .exp-badges-right {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .exp-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-node {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    border-radius: 10px;
+  }
+
+  .exp-timeline::before {
+    left: 19px;
+    transform: translateX(-50%);
+  }
+
+  .timeline-item {
+    gap: 14px;
+  }
+
+  .exp-card {
+    padding: 18px 14px;
+    border-radius: 16px;
   }
 }
