@@ -262,7 +262,7 @@ function Navbar() {
 
         {/* Nav Right Actions (Command Search + Theme Toggle + Mobile Hamburger) */}
         <div className="nav-right-actions">
-          <button
+          {/* <button
             type="button"
             className="nav-cmd-k-btn"
             onClick={() => window.dispatchEvent(new CustomEvent("open-command-palette"))}
@@ -272,7 +272,7 @@ function Navbar() {
             <Icons.Search />
             <span className="cmd-k-text">Search</span>
             <kbd className="cmd-k-kbd">⌘K</kbd>
-          </button>
+          </button> */}
 
           <button
             type="button"
@@ -344,7 +344,7 @@ function Navbar() {
         {/* Drawer Navigation List with Icons */}
         <div className="side-drawer-body">
           {/* Quick Search Action */}
-          <div className="drawer-search-box">
+          {/* <div className="drawer-search-box">
             <button
               type="button"
               className="drawer-search-btn"
@@ -357,7 +357,7 @@ function Navbar() {
               <span>Quick Search & Actions</span>
               <kbd>⌘K</kbd>
             </button>
-          </div>
+          </div> */}
 
           <div className="drawer-section-label">NAVIGATION</div>
           <ul className="side-drawer-list">
