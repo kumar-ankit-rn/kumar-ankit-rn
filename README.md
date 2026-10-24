@@ -11,7 +11,7 @@
 
 I’m **Ankit Kumar**, a **Team Lead – Mobile Application Development**, specializing in building **high-performance React Native applications** for **Android and iOS**.
 
-With **4+ years of focused experience in React Native**, I blend **strong technical skills** with **leadership excellence**, guiding teams to deliver clean, scalable, and production-ready mobile solutions.
+With **5+ years of focused experience in React Native**, I blend **strong technical skills** with **leadership excellence**, guiding teams to deliver clean, scalable, and production-ready mobile solutions.
 
 I lead projects end-to-end — from **concept and architecture** to **App Store & Play Store deployment** — ensuring best practices, optimized performance, and seamless user experiences.
 
