@@ -34,12 +34,12 @@ export default function About() {
             <div className="story-avatar-mini">AK</div>
             <div className="story-header-text">
               <h3>Ankit Kumar</h3>
-              <p>Team Lead – Mobile Application Development</p>
+              <p>Senior React Native Developer & Team Lead • Pune, India</p>
             </div>
           </div>
 
           <p className="about-paragraph">
-            With <strong>5+ years of hands-on experience</strong> in the mobile ecosystem, I specialize in architecting, engineering, and scaling mission-critical <strong>React Native</strong> applications for both <strong>iOS</strong> and <strong>Android</strong> platforms—having architected and developed <strong>20+ production mobile apps</strong> spanning fintech, crypto trading, automation, and enterprise platforms.
+            Based in <strong>Pune, India</strong>, with <strong>5+ years of hands-on experience</strong> in the mobile ecosystem, I specialize in architecting, engineering, and scaling mission-critical <strong>React Native</strong> applications for both <strong>iOS</strong> and <strong>Android</strong> platforms—having architected and developed <strong>20+ production mobile apps</strong> spanning fintech, crypto trading, automation, and enterprise platforms.
           </p>
 
           <p className="about-paragraph">

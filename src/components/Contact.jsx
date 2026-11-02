@@ -287,7 +287,7 @@ function Contact() {
                   </div>
                   <div className="channel-info">
                     <h4>Location & Relocation</h4>
-                    <p>Delhi NCR, India • Remote Worldwide</p>
+                    <p>Pune, Maharashtra, India • Remote Worldwide</p>
                   </div>
                 </div>
                 <div className="channel-actions">

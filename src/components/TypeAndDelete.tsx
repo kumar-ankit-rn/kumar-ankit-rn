@@ -3,11 +3,11 @@ import "./TypeAndDelete.css"; // 👈 import the CSS
 
 export default function TypeAndDelete({
   words = [
-    "Technical Lead – Mobile Applications",
-    "React Native Developer",
-    "Software Developer",
-    "Full Stack Developer",
-    "QA Enthusiast",
+    "Senior React Native Developer",
+    "React Native Developer Pune",
+    "Technical Lead – Mobile Apps",
+    "iOS & Android Engineer",
+    "Cross-Platform Specialist",
   ],
   typingSpeed = 200,
   deleteSpeed = 150,

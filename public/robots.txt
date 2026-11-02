@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kumar-ankit-rn.vercel.app/sitemap.xml
+

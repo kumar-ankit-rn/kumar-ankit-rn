@@ -19,7 +19,7 @@ export default function Home() {
         {/* Availability Badge */}
         <div className="hero-status-pill">
           <span className="status-pulse-dot" />
-          <span className="hero-status-text">Available for Mobile Development & Leadership</span>
+          <span className="hero-status-text">Senior React Native Developer • Pune & Remote</span>
         </div>
 
         {/* Hero Title with Refined Hierarchy */}
@@ -41,7 +41,7 @@ export default function Home() {
 
         {/* Professional Summary */}
         <p className="hero-summary">
-          Team Lead & Senior Mobile Engineer with <strong>5+ years</strong> of hands-on experience and <strong>20+ apps developed</strong>, engineering scalable, high-performance applications for <strong>iOS</strong> and <strong>Android</strong> using <strong>React Native</strong>. Specializing in clean architecture, seamless native bridges, state management, and end-to-end store deployment.
+          Senior React Native Developer & Mobile App Team Lead based in <strong>Pune, India</strong> with <strong>5+ years</strong> of hands-on experience and <strong>20+ apps developed</strong>, engineering scalable, high-performance applications for <strong>iOS</strong> and <strong>Android</strong> using <strong>React Native</strong>. Specializing in clean architecture, seamless native bridges, state management, and end-to-end store deployment.
         </p>
 
         {/* Key Metrics / Impact Stats */}
